@@ -7,11 +7,12 @@
 </head>
 <body>
   <h3>Formulário</h3>
-  <form action="/" method="">
-    <input type="text" id="opcao" />
-    <input type="submit" value="Go!" onclick="enviarRequisicao()" />
+  <form action="" method="dados_consulta">
+    <input type="text" name="data-imagem" id="data-imagem" />
+    <input type="button" value="Consultar" onclick="consultarImagem()" />
   </form>
 
+  <div id="resultado"></div>
   <script src="./functions.js"></script>
 </body>
 </html>
